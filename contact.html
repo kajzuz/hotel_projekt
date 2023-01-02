@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Otium Tower</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Lora&family=Merriweather:wght@300&family=Prosto+One&family=Source+Serif+4:opsz@8..60&display=swap" rel="stylesheet">
+    <!--contactside-->
+</head>
+
+<body class="contactpage">
+
+    <header>
+        <h1 class="contactH1">Otium Tower Contact</h1>
+    </header>
+
+    <button id="menuButton">
+        <img src="images/hicon.png" alt="hamburger menu icon" width="30"> 
+     </button> 
+    
+    <nav id="menu" class="menuNav">
+        <ul>
+            <li>
+                <a class="roomNavContact" href="index.html">Home</a>
+            </li>
+            <li>
+                <a class="contactNavContact" href="room.html">Rooms</a>
+            </li>
+        </ul>
+    </nav> 
+
+    <section class="infoContact">
+        <h2 class="h2C"><b>Booking/Contact us</b></h2>
+        <article>
+            <h3 class="h3C">About your staying</h3>
+            <p class="textContact">Here you can either choose to book 
+                your staying at Otium Tower Hotel or incase of a 
+                emergeny cancel your booking. Or if you have something else in mind we 
+                have other things to choose between. You are welcome to can contact us
+                with any furter questions about your staying. 
+            </p> 
+        </article>
+    </section>
+
+    <form class="contact">
+        <fieldset>
+        <legend>Personal information</legend>
+        <label for="name">Enter name:</label>
+        <br>
+        <input type="text" name="name" id="name" placeholder="Enter your name...">
+
+        <br><br>
+        <label for="email">Enter email:</label>
+        <br>
+        <input type="email" name="email" id="email" placeholder="Enter your Email..." required>
+
+        <br><br>
+        <label for="phoneNumber">Enter phonenumber:</label>
+        <br>
+        <input type="tel" name="phoneNumber" id="phoneNumber" placeholder="Enter your phonenumber...">
+
+        </fieldset>
+
+        <br><br>
+        <label for="Errend">Your Errend:</label>
+        <br>
+        <select name="Errend" id="Errend">
+            <option value="Booking">Booking</option>
+            <option value="Cancel booking">Cancel booking</option>
+            <option value="Conferens">Conferens</option>
+            <option value="After work">After work</option>
+            <option value="Other">Other</option>
+        </select>   
+
+        <br><br>
+        <label for="amountAdults">Amount of adults:</label>
+        <br>
+        <input type="radio" name="amountAdults" id="amountAdults" value="amountAdults">
+        <label for="amountAdults">1-5</label>
+
+        <br>
+        <input type="radio" name="amountAdults" id="amountAdultsMore" value="amountAdultsMore">
+        <label for="amountAdultsMore">5-10</label>
+
+        <br>
+        <input type="radio" name="amountAdults" id="amountAdultsMore10" value="amountAdultsMore10">
+        <label for="amountAdultsMore10">10 +</label>
+
+        <br><br>
+        <label for="amountChildren">Amount of children (0-13 years):</label>
+        <br>
+        <input type="radio" name="amountChildren" id="amountChildren" value="amountChildren">
+        <label for="amountChildren">0</label>
+
+        <br>
+        <input type="radio" name="amountChildren" id="amountChildrenMore" value="amountChildrenMore">
+        <label for="amountChildrenMore">1-3</label>
+
+        <br>
+        <input type="radio" name="amountChildren" id="amountChildrenMore4" value="amountChildrenMore4">
+        <label for="amountChildrenMore4">4 +</label>
+
+
+        <br><br>
+        <label for="amountRooms">Amount of rooms:</label>
+        <br>
+        <input type="radio" name="amountRooms" id="amountRooms" value="amountRooms">
+        <label for="amountRooms">1 room</label>
+
+        <br>
+        <input type="radio" name="amountRooms" id="amountRoomsMore" value="amountRoomsMore">
+        <label for="amountRoomsMore">2 rooms</label>
+
+        <br>
+        <input type="radio" name="amountRooms" id="amountRoomsMore3" value="amountRoomsMore3">
+        <label for="amountRoomsMore3">3 + rooms</label>
+
+
+        <br><br>
+        <label for="bookingDateFrom">Check in:</label>
+        <br>
+        <input type="date" name="bookingDateFrom" id="bookingDateFrom">
+
+        <br><br>
+        <label for="bookingDateTo">Check out:</label>
+        <br>
+        <input type="date" name="bookingDateTo" id="bookingDateTo">
+
+        <br><br>
+        <label for="message">Your message:</label>
+        <br>
+        <textarea name="message" id="message" cols="30" rows="10" 
+        placeholder="Enter your message..."></textarea>
+        <br><br>
+        <input id= "Send" type="submit" value="Send">
+        <br><br>
+
+    </form>
+
+        <img class="OtiumLogoContact" src="images/otlogo2.png" alt="Otium Tower logo">
+        <img class="hotelImg" src="images/stayingHotel.webp" alt="Image of Otium tower Hotel">
+
+
+        <footer>
+            <p class="contactText"><b>Contact us</b></p>
+            <a href="mailto:otiumtower@hotmail.com">Email: otiumtower@hotmail.com</a>
+            <br>
+            <a href="tel:+49705897580">Contactnumber: +49705897580</a>
+            <br><br>
+            <a href="https://www.google.se/maps/place/Mohrenstra%C3%9Fe+37,+10117+Berlin,+Tyskland/@52.5123422,13.3931322,17z/data=!3m1!4b1!4m5!3m4!1s0x47a851d9ebdac1ad:0xdf2635d34bdc6c0!8m2!3d52.5123422!4d13.3953209">
+                Adress: Mohrenstrasse 37 10117 Berlin</a>
+        </footer> 
+
+    <br><br>
+    <a class="topContact" href="#">Top of the side</a>
+    <br><br>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
