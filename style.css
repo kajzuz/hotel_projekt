@@ -76,10 +76,17 @@
     background-color:black;
 }
 
-.imgStartsida{
+/*.imgStartsida{
     width: 100%;
     position: absolute;
     top: 125vh;
+    left: 0%;
+}*/
+
+.imgStartsida{
+    width: 100%;
+    position: relative;
+    top: 70vh;
     left: 0%;
 }
 
@@ -132,13 +139,13 @@
 
 .footerHome{
     position: relative;
-    top: 100vh;
+    top: 70vh;
     left: 2%;
 }
 
 .topHome{
     position: relative;
-    top: 98vh;
+    top: 68vh;
     left: 2%;
 }
 
@@ -235,7 +242,7 @@
     width: 100%;
 }
 
-.roomTextC{
+/*.roomTextC{
     position: absolute;
     bottom: 4vh;
     left: 0%;
@@ -250,6 +257,24 @@
 .topRoom{
     position: absolute;
     top: 320vh;
+    left: 2%;
+}*/
+
+.roomTextC{
+    position: relative;
+    bottom: 0vh;
+    left: 0%;
+}
+
+.roompage footer{
+    position: relative;
+    top: 42vh;
+    left: 2%;
+}
+
+.topRoom{
+    position: relative;
+    top: 40vh;
     left: 2%;
 }
 
@@ -346,7 +371,7 @@
     left: 1%;
 }
 
-.contactText{
+/*.contactText{
     position: absolute;
     bottom: 10vh;
     left: 1%;
@@ -358,17 +383,37 @@
     left: 2%;
 }
 
+/*make every to the top on phone fixed
 .topContact{
-    position: absolute;/*make every to the top on phone fixed*/
+    position: absolute;
     top: 257vh;
     left: 2%;
-}
+}*/
 
 .hotelImg{
     width: 100%;
     position: absolute;
     top: 18vh;
     left: 0%;
+}
+
+.contactText{
+    position: relative;
+    bottom: 0vh;
+    left: 1%;
+}
+
+.contactpage footer{
+    position: relative;
+    top: 49vh;
+    left: 2%;
+}
+
+/*make every to the top on phone fixed*/
+.topContact{
+    position: relative;
+    top: 48vh;
+    left: 2%;
 }
 
 
