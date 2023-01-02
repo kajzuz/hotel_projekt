@@ -1,5 +1,7 @@
 /*Phone*/
 
+/*Every contact us must go up more in form size*/
+
 /**{
     background-color:rgb(105, 70, 34);
 }*/
@@ -93,7 +95,7 @@
     font-size:medium;
     position: relative;
     top: 49vh;
-    left: 2%;
+    left: 9%;
 }
 
 .textDec{
@@ -101,10 +103,10 @@
     line-height: 160%;
     position: absolute;
     top: 66vh;
-    right: 15%;
+    right: 9%;
 }
 
-.homepageC{
+/*.homepageC{
     position: absolute;
     bottom: 5vh;
     left: 0%;
@@ -119,6 +121,24 @@
 .topHome{
     position: absolute;
     top: 175vh;
+    left: 2%;
+}*/
+
+.homepageC{
+    position: relative;
+    bottom: 1vh;
+    left: 0%;
+}
+
+.footerHome{
+    position: relative;
+    top: 100vh;
+    left: 2%;
+}
+
+.topHome{
+    position: relative;
+    top: 98vh;
     left: 2%;
 }
 
@@ -353,7 +373,7 @@
 
 
 /*Desktop*/
-@media screen and (min-width: 451px){
+@media screen and (min-width: 480px){
 
     /*Homepage*/
     .OtiumLogo {
@@ -417,7 +437,7 @@
     .h3A{
         position: relative;
         top: 128vh;
-        right: -1.5%;
+        left: 1.5%;
     }
     
     .textDec{
