@@ -195,6 +195,22 @@
     /*top: 48vh;*/
 }
 
+.room1{
+    line-height: 160%;
+}
+
+.room2{
+    line-height: 160%;
+}
+
+.room3{
+    line-height: 160%;
+}
+
+.room4{
+    line-height: 160%;
+}
+
 #rubrikRoom{
     font-family: 'Lora', serif;
     position: static;
@@ -567,13 +583,13 @@
     
     .roompage footer{
         position: absolute;
-        top: 500vh;
+        top: 519vh;
         left: 1%;
     }
     
     .topRoom{
         position: absolute;
-        top: 507vh;
+        top: 525vh;
         left: 1%;
     }
     
