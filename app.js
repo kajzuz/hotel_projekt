@@ -11,7 +11,7 @@ menuButtonEl.addEventListener('click', addClass);
 const sendEl = document.getElementById("Send");
 
 function saySend(){
-   alert("Thank you\nYour message has now been sent!");
+   alert("Thank you!\nWe have received your message!");
 }
 
 sendEl.addEventListener('click', saySend);

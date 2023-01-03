@@ -6,7 +6,7 @@
     background-color:rgb(105, 70, 34);
 }*/
 
-/*Homepage*/
+/*Homepage right logo*/
 .OtiumLogo {
     width: 40%;
     position: relative;
@@ -22,7 +22,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 300;
 }
-
+/*right one*/
 .lobbyImg {
     width: 100%;
     background-image: url(images/lobby.jpg);
@@ -75,7 +75,7 @@
     width: 30px;
     background-color:black;
 }
-
+/*not right*/
 /*.imgStartsida{
     width: 100%;
     position: absolute;
@@ -83,6 +83,7 @@
     left: 0%;
 }*/
 
+/*right*/
 .imgStartsida{
     width: 100%;
     position: relative;
@@ -90,7 +91,7 @@
     left: 0%;
 }
 
-.h2B{
+.h2B{ 
     font-size:larger;
     position: relative;
     top: 47vh;
@@ -112,6 +113,59 @@
     top: 66vh;
     right: 9%;
 }
+
+/*trying ideas*/
+
+/*.lobbyImg {
+    width: 100%;
+    background-image: url(images/lobby.jpg);
+    position: relative;
+    bottom: 35vh;
+    right: 0%;
+}
+
+.OtiumLogo {
+    width: 40%;
+    position: relative;
+    bottom: 38vh;
+    right: 0%;
+}
+
+.h2B{ 
+    font-size:larger;
+    position: relative;
+    top: 42vh;
+    left: 16%;
+    font-family: 'Lora', serif;
+}
+
+.h3A{
+    font-size:medium;
+    position: relative;
+    top: 40vh;
+    left: 9%;
+}
+
+.textDec{
+    width: 80%;
+    line-height: 160%;
+    position: absolute;
+    top: 56vh;
+    right: 9%;
+}
+
+.homeSec{
+    position: relative;
+    top: 1vh;
+    right: 0%;
+}
+
+.imgStartsida{
+    width: 100%;
+    position: relative;
+    top: 108vh;
+    left: 0%;
+}*/
 
 /*.homepageC{
     position: absolute;
@@ -430,7 +484,7 @@
 
     .lobbyImg{
         position: relative;
-        bottom: 1vh;
+        bottom: 55vh;
         right: 0%;
     }
 
@@ -464,7 +518,7 @@
     .imgStartsida{
         width: 50%;
         position: relative;
-        top: 17vh;
+        top: 127vh;
         left: 49%;
     }
 
