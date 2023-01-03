@@ -87,6 +87,7 @@
 .h2B{ 
     font-size:larger;
     position: static;
+    margin-left: 12%;/**/
     /*top: 47vh;
     left: 16%;*/
     font-family: 'Lora', serif;
@@ -95,14 +96,16 @@
 .h3A{
     font-size:medium;
     position: static;
+    margin-left:12%;/**/
     /*top: 51vh;
     left: 9%;*/
 }
 
 .textDec{
-    width: 80%;
+    width: 80%;/**/
     line-height: 160%;
     position: static;
+    margin-left: 12%;/**/
     /*top: 68vh;
     right: 9%;*/
 }
@@ -214,6 +217,7 @@
 #rubrikRoom{
     font-family: 'Lora', serif;
     position: static;
+    margin-left: 25%;/**/
     /*top: 1vh;
     left: 25%;*/
     font-size:larger;
@@ -327,6 +331,7 @@
 .h2C{
     font-family: 'Lora', serif;
     position: static;
+    margin-left: 13%;
     /* bottom: 3vh;
     left: 22%; */
     font-size: larger;
@@ -335,13 +340,16 @@
 .h3C{
     font-size: medium;
     position: static;
+    margin-left: 13%;
     /* bottom: 3vh;
     left: 1%; */
 }
 
 .textContact{ 
+    width: 80%;
     line-height: 160%;
     position: static;
+    margin-left: 13%;
     /* bottom: 3vh;
     left: 1%; */
 }
@@ -433,13 +441,13 @@
         font-family: 'Lora', serif;
         position: relative;
         bottom: -15vh;
-        right: -18%;
+        right: -5%;
     }
 
     .h3A{
         position: absolute;
         top: 140vh;
-        left: 2%;
+        left: -10%;
     }
     
     .textDec{
@@ -538,13 +546,6 @@
         left: 78%;
     }
 
-
-    .allRooms{
-        position: relative;
-        top: 13vh;
-        right: 0%;
-    }
-
     .video{
         width: 100%;
         position: relative;
@@ -555,8 +556,15 @@
     #rubrikRoom{
         font-family: 'Lora', serif;
         position: relative;
-        left: 45%;
+        top: 1vh;
+        left: 18%;
         font-size:larger;
+    }
+
+    .allRooms{
+        position: relative;
+        top: 10vh;
+        left: 0%;
     }
 
     .img1{
@@ -656,20 +664,20 @@
         font-size:larger;
         position: relative;
         top: 15%;
-        left: 42%;
+        left: 30%;
     }
 
     .h3C{
         position: relative;
         top: 25%;
-        left: 2%;
+        left: -11%;
     }
 
     .textContact{
         width: 45%;
         position: relative;
         top: 35%;
-        left: 2%;
+        left: -11%;
     }
 
     .infoContact{
