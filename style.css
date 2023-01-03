@@ -130,9 +130,9 @@
 
 .roomsH1{
     font-size: larger;
-    position: relative;
-    top:30%;
-    left: 2%;
+    position: static;
+    /*top:30%;
+    left: 2%;*/
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 300;
 }
@@ -178,28 +178,28 @@
 
 .OtiumLogoRoom {
     width: 40%;
-    position: absolute;
-    top: 8vh;
-    left: 0%;
+    position: static;
+    /*top: 8vh;
+    left: 0%;*/
 }
 
 .video{
     width: 100%;
-    position: absolute;
-    top: 22vh;
-    right: 0%;
+    position: static;
+    /*top: 22vh;
+    right: 0%;*/
 }
 
 .allRooms{
-    position: relative;
-    top: 48vh;
+    position: static;
+    /*top: 48vh;*/
 }
 
 #rubrikRoom{
     font-family: 'Lora', serif;
-    position: relative;
-    top: 1vh;
-    left: 25%;
+    position: static;
+    /*top: 1vh;
+    left: 25%;*/
     font-size:larger;
 }
 
@@ -238,30 +238,30 @@
 }*/
 
 .roomTextC{
-    position: relative;
-    bottom: 0vh;
-    left: 0%;
+    position: static;
+    /* bottom: 0vh;
+    left: 0%; */
 }
 
 .roompage footer{
-    position: relative;
-    top: 42vh;
-    left: 2%;
+    position: static;
+    /* top: 42vh;
+    left: 2%; */
 }
 
 .topRoom{
-    position: relative;
-    top: 40vh;
-    left: 2%;
+    position: static;
+    /* top: 40vh;
+    left: 2%; */
 }
 
 /*Contactpage*/
 
 .contactH1{
     font-size: larger;
-    position: relative;
-    top:30%;
-    left: 2%;
+    position: static;
+    /* top:30%;
+    left: 2%; */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 300;
 }
@@ -308,89 +308,71 @@
 
 .OtiumLogoContact {
     width: 40%;
-    position: absolute;
-    top: 8vh;
-    left: 0%;
+    position: static;
+    /* top: 8vh;
+    left: 0%; */
 }
 
 
 .contact {
-    position: relative;
-    top: 50vh;
-    left: 1%;
+    position: static;
+    /* top: 50vh;
+    left: 1%; */
 }
 
 .infoContact{
-    position: relative;
-    top: 51vh;
-    right: 0%;
+    position: static;
+    /* top: 51vh;
+    right: 0%; */
 }
 
 .h2C{
     font-family: 'Lora', serif;
-    position: relative;
-    bottom: 3vh;
-    left: 22%;
+    position: static;
+    /* bottom: 3vh;
+    left: 22%; */
     font-size: larger;
 }
 
 .h3C{
     font-size: medium;
-    position: relative;
-    bottom: 3vh;
-    left: 1%;
+    position: static;
+    /* bottom: 3vh;
+    left: 1%; */
 }
 
 .textContact{ 
     line-height: 160%;
-    position: relative;
-    bottom: 3vh;
-    left: 1%;
+    position: static;
+    /* bottom: 3vh;
+    left: 1%; */
 }
 
-/*.contactText{
-    position: absolute;
-    bottom: 10vh;
-    left: 1%;
-}
-
-.contactpage footer{
-    position: absolute;
-    top: 243vh;
-    left: 2%;
-}
-
-/*make every to the top on phone fixed
-.topContact{
-    position: absolute;
-    top: 257vh;
-    left: 2%;
-}*/
 
 .hotelImg{
     width: 100%;
-    position: absolute;
-    top: 18vh;
-    left: 0%;
+    position: static;
+    /* top: 18vh;
+    left: 0%; */
 }
 
 .contactText{
-    position: relative;
-    bottom: 0vh;
-    left: 1%;
+    position: static;
+    /* bottom: 0vh;
+    left: 1%; */
 }
 
 .contactpage footer{
-    position: relative;
-    top: 49vh;
-    left: 2%;
+    position: static;
+    /* top: 49vh;
+    left: 2%; */
 }
 
 /*make every to the top on phone fixed*/
 .topContact{
-    position: relative;
-    top: 48vh;
-    left: 2%;
+    position: static;
+    /* top: 48vh;
+    left: 2%; */
 }
 
 
@@ -561,14 +543,14 @@
 
     .allRooms{
         position: relative;
-        top: 125vh;
+        top: 13vh;
         right: 0%;
     }
 
     .video{
         width: 100%;
         position: relative;
-        top: -355vh;
+        top: 5vh;
         right: 0%;
     }
 
@@ -622,6 +604,11 @@
         left: 0%;
     }
 
+    .hotelImg{
+        position: absolute;
+        top: 20vh;
+        left: 0%;
+    }
 
     .contactpage li {
         list-style: none;
@@ -674,8 +661,17 @@
         left: 42%;
     }
 
+    .h3C{
+        position: relative;
+        top: 25%;
+        left: 2%;
+    }
+
     .textContact{
         width: 45%;
+        position: relative;
+        top: 35%;
+        left: 2%;
     }
 
     .infoContact{
@@ -686,25 +682,25 @@
 
     .contact{
         position: relative;
-        top: 128vh;
-        right: 2%;
+        top: 130vh;
+        left: 0.5%;
     }
 
     .contactText{
         position: absolute;
-        bottom: 8vh;
+        bottom: 9vh;
         left: 0%;
     }
 
     .contactpage footer{
         position: absolute;
-        top: 290vh;
+        top: 300vh;
         left: 1%;
     }
     
     .topContact{
         position: absolute;
-        top: 303vh;
+        top: 313vh;
         left: 1%;
     }
     
