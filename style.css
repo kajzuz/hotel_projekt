@@ -121,8 +121,8 @@
 .topHome{
     position: fixed;/**/
     width: 5%;
-    bottom: 0%;
-    right: 17%;
+    bottom: 5%;
+    right: 14%;
     /*top: 68vh;
     left: 2%;*/
 }
@@ -254,8 +254,8 @@
     /* position: static; */
     position: fixed;/**/
     width: 5%;
-    bottom: 0%;
-    right: 17%;
+    bottom: 5%;
+    right: 14%;
     /* top: 40vh;
     left: 2%; */
 }
@@ -383,8 +383,8 @@
     /* position: static; */
     position: fixed;/**/
     width: 5%;
-    bottom: 0%;
-    right: 17%;
+    bottom: 5%;
+    right: 14%;
     /* top: 48vh;
     left: 2%; */
 }
