@@ -1,5 +1,6 @@
 /*Phone*/
 
+
 /*Homepage*/
 .OtiumLogo {
     width: 40%;
@@ -52,7 +53,7 @@
 }
 
 #menuButton {
-    background-color: white;
+    background-color: white; 
     text-decoration: none;
     position: static;
     /*top: 8%;
@@ -112,11 +113,11 @@
     left: 0%;*/
 }
 
-.footerHome{
+ .footerHome{
     position: static;
     /*top: 70vh;
     left: 2%;*/
-}
+} 
 
 .topHome{
     position: fixed;/**/
