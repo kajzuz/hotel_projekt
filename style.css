@@ -119,6 +119,18 @@
     left: 2%;*/
 } 
 
+.emailH{
+    position: sticky;
+    bottom: 0%;
+    left: 0%;
+}
+
+.phoneH{
+    position: sticky;
+    bottom: 0%;
+    left: 20%;
+}
+
 .topHome{
     position: fixed;/**/
     width: 5%;
@@ -198,6 +210,14 @@
     /*top: 48vh;*/
 }
 
+.allRooms a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    border-radius: 10%;
+    background-color: rgb(193, 187, 187);
+}
+
 .room1{
     line-height: 160%;
 }
@@ -249,6 +269,18 @@
     position: static;
     /* top: 42vh;
     left: 2%; */
+}
+
+.emailR{
+    position: sticky;
+    bottom: 0%;
+    left: 0%;
+}
+
+.phoneR{
+    position: sticky;
+    bottom: 0%;
+    left: 20%;
 }
 
 .topRoom{
@@ -379,6 +411,24 @@
     left: 2%; */
 }
 
+ .emailC{
+    position: sticky;
+    bottom: 0%;
+    left: 0%;
+}
+
+.phoneC{
+    position: sticky;
+    bottom: 0%;
+    left: 20%;
+} 
+
+.adressC{
+    position: sticky;
+    bottom: 0%;
+    left: 0%;
+}
+
 /*make every to the top on phone fixed*/
 .topContact{
     /* position: static; */
@@ -501,6 +551,18 @@
         position: relative;
         bottom: 37vh;
         left: 78%;
+    }
+
+    .emailH{
+        position: sticky;
+        bottom: 0%;
+        left: 0%;
+    }
+    
+    .phoneH{
+        position: sticky;
+        bottom: 0%;
+        left: 3%;
     }
 
     /*Roompage*/
