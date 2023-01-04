@@ -1,8 +1,5 @@
 /*Phone*/
 
-/*Every contact us must go up more in form size*/
-
-
 /*Homepage*/
 .OtiumLogo {
     width: 40%;
@@ -122,7 +119,10 @@
 }
 
 .topHome{
-    position: static;
+    position: fixed;/**/
+    width: 5%;
+    bottom: 0%;
+    right: 17%;
     /*top: 68vh;
     left: 2%;*/
 }
@@ -251,7 +251,11 @@
 }
 
 .topRoom{
-    position: static;
+    /* position: static; */
+    position: fixed;/**/
+    width: 5%;
+    bottom: 0%;
+    right: 17%;
     /* top: 40vh;
     left: 2%; */
 }
@@ -376,7 +380,11 @@
 
 /*make every to the top on phone fixed*/
 .topContact{
-    position: static;
+    /* position: static; */
+    position: fixed;/**/
+    width: 5%;
+    bottom: 0%;
+    right: 17%;
     /* top: 48vh;
     left: 2%; */
 }
@@ -465,9 +473,9 @@
     }
     
     .topHome{
-        position: relative;
-        top: 62vh;
-        left: 1%;
+        position: fixed;
+        top: 75vh;
+        left: 95%;
     }
 
     .roomNav{
@@ -596,9 +604,12 @@
     }
     
     .topRoom{
-        position: absolute;
+        position: fixed;
+        top: 75vh;
+        left: 95%;
+        /* position: absolute;
         top: 525vh;
-        left: 1%;
+        left: 1%; */
     }
     
 
@@ -705,9 +716,12 @@
     }
     
     .topContact{
-        position: absolute;
+        position: fixed;
+        top: 75vh;
+        left: 95%;
+        /* position: absolute;
         top: 313vh;
-        left: 1%;
+        left: 1%; */
     }
     
     
