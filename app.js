@@ -8,10 +8,19 @@ function addClass (){
 
 menuButtonEl.addEventListener('click', addClass);
 
-const sendEl = document.getElementById("Send");
 
-function saySend(){
-   alert("Thank you!\nWe have received your message!");
+/*Contactpage*/ 
+const sendEl = document.getElementById("Send");
+const contactFormEl = document.getElementById("contactForm");
+
+if(sendEl != null){
+   sendEl.addEventListener('click', function saySend(){
+      contactFormEl.innerHTML= "Thank you!\nYour message is sent!";
+   });
 }
 
-sendEl.addEventListener('click', saySend);
+/*function saySend(){
+alert("Thank you!\nWe have received your message!");
+}
+
+sendEl.addEventListener('click', saySend);*/
