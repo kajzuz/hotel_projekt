@@ -18,9 +18,3 @@ if(sendEl != null){
       contactFormEl.innerHTML= "Thank you!\nYour message is sent!";
    });
 }
-
-/*function saySend(){
-alert("Thank you!\nWe have received your message!");
-}
-
-sendEl.addEventListener('click', saySend);*/

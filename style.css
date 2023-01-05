@@ -8,16 +8,12 @@
 .OtiumLogo {
     width: 40%;
     position: static;
-    /*bottom: 38vh;
-    right: 0%;*/
 }
 
 .welcome{
     font-size: larger;
     position: static;
-    text-align: center;/**/
-    /*top:30%;
-    left: 2%;*/
+    text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 300;
 }
@@ -26,8 +22,6 @@
     width: 100%;
     background-image: url(images/lobby.jpg);
     position: static;
-    /*bottom: 34vh;
-    right: 0%;98*/
 }
 
 .homepage li {
@@ -59,8 +53,6 @@
     background-color: white; 
     text-decoration: none;
     position: static;
-    /*top: 8%;
-    right: 3%;*/
     border: none;
     outline: none;
 }
@@ -75,76 +67,55 @@
     background-color:black;
 }
 
-/*static, ta bort top, margin*/
 .imgStartsida{
     width: 100%;
     position: static;
-    /*top: 105vh;
-    left: 0%;*/
 }
 
 .h2B{ 
     font-size:larger;
     position: static;
-    margin-left: 12%;/**/
-    /*top: 47vh;
-    left: 16%;*/
+    margin-left: 12%;
     font-family: 'Lora', serif;
 }
 
 .h3A{
     font-size:medium;
     position: static;
-    margin-left:12%;/**/
-    /*top: 51vh;
-    left: 9%;*/
+    margin-left:12%;
 }
 
 .textDec{
-    width: 80%;/**/
+    width: 80%;
     line-height: 160%;
     position: static;
-    margin-left: 12%;/**/
-    /*top: 68vh;
-    right: 9%;*/
+    margin-left: 12%;
 }
 
 
 .homepageC{
     position: static;
-    /*bottom: 1vh;
-    left: 0%;*/
 }
 
  .footerHome{
     position: static;
-    /*top: 70vh;
-    left: 2%;*/
 } 
 
 .emailH{
     display: flex;
     gap: 2%;
-    /* position: sticky;
-    bottom: 0%;
-    left: 0%; */
 }
 
 .phoneH{
     display: flex;
     gap: 2%;
-    /* position: sticky;
-    bottom: 0%;
-    left: 15%; */
 }
 
 .topHome{
-    position: fixed;/**/
+    position: fixed;
     width: 5%;
     bottom: 5%;
     right: 14%;
-    /*top: 68vh;
-    left: 2%;*/
 }
 
 /*Roompage*/
@@ -153,8 +124,6 @@
     font-size: larger;
     position: static;
     text-align: center;
-    /*top:30%;
-    left: 2%;*/
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 300;
 }
@@ -201,20 +170,15 @@
 .OtiumLogoRoom {
     width: 40%;
     position: static;
-    /*top: 8vh;
-    left: 0%;*/
 }
 
 .video{
     width: 100%;
     position: static;
-    /*top: 22vh;
-    right: 0%;*/
 }
 
 .allRooms{
     position: static;
-    /*top: 48vh;*/
 }
 
 .allRooms a{
@@ -242,11 +206,8 @@
 }
 
 #rubrikRoom{
-    font-family: 'Lora', serif;
     position: static;
-    text-align: center;/**/
-    /*top: 1vh;
-    left: 25%;*/
+    text-align: center;
     font-size:larger;
 }
 
@@ -268,40 +229,27 @@
 
 .roomTextC{
     position: static;
-    /* bottom: 0vh;
-    left: 0%; */
 }
 
 .roompage footer{
     position: static;
-    /* top: 42vh;
-    left: 2%; */
 }
 
 .emailR{
     display: flex;
     gap: 2%;
-    /* position: sticky;
-    bottom: 0%;
-    left: 0%; */
 }
 
 .phoneR{
     display: flex;
     gap: 2%;
-    /* position: sticky;
-    bottom: 0%;
-    left: 15%; */
 }
 
 .topRoom{
-    /* position: static; */
-    position: fixed;/**/
+    position: fixed;
     width: 5%;
     bottom: 5%;
     right: 14%;
-    /* top: 40vh;
-    left: 2%; */
 }
 
 /*Contactpage*/
@@ -310,8 +258,6 @@
     font-size: larger;
     position: static;
     text-align: center;
-    /* top:30%;
-    left: 2%; */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 300;
 }
@@ -359,29 +305,20 @@
 .OtiumLogoContact {
     width: 40%;
     position: static;
-    /* top: 8vh;
-    left: 0%; */
 }
 
 
 .contact {
     position: static;
-    /* top: 50vh;
-    left: 1%; */
 }
 
 .infoContact{
     position: static;
-    /* top: 51vh;
-    right: 0%; */
 }
 
 .h2C{
-    font-family: 'Lora', serif;
     position: static;
     margin-left: 13%;
-    /* bottom: 3vh;
-    left: 22%; */
     font-size: larger;
 }
 
@@ -389,8 +326,6 @@
     font-size: medium;
     position: static;
     margin-left: 13%;
-    /* bottom: 3vh;
-    left: 1%; */
 }
 
 .textContact{ 
@@ -398,68 +333,48 @@
     line-height: 160%;
     position: static;
     margin-left: 13%;
-    /* bottom: 3vh;
-    left: 1%; */
 }
 
 
 .hotelImg{
     width: 100%;
     position: static;
-    /* top: 18vh;
-    left: 0%; */
 }
 
 .contactText{
     position: static;
-    /* bottom: 0vh;
-    left: 1%; */
 }
 
 .contactpage footer{
     position: static;
-    /* top: 49vh;
-    left: 2%; */
 }
 
  .emailC{
     display: flex;
     gap: 2%;
-    /* position: sticky;
-    bottom: 0%;
-    left: 0%; */
 }
 
 .phoneC{
     display: flex;
     gap: 2%;
-    /* position: sticky;
-    bottom: 0%;
-    left: 15%; */
 } 
 
 .adressC{
     display: flex;
     gap: 2%;
-    /* position: sticky;
-    bottom: 0%;
-    left: 30%; */
 }
 
-/*make every to the top on phone fixed*/
+
 .topContact{
-    /* position: static; */
-    position: fixed;/**/
+    position: fixed;
     width: 5%;
     bottom: 5%;
     right: 14%;
-    /* top: 48vh;
-    left: 2%; */
 }
 
 
 /*Desktop*/
-@media screen and (min-width: 800px){/*480px*/
+@media screen and (min-width: 800px){
 
     /*Homepage*/
     .OtiumLogo {
@@ -502,8 +417,6 @@
     }
 
     
-
-    
     .imgStartsida{
         width: 50%;
         position: absolute;
@@ -518,7 +431,6 @@
     
     
     .h2B{
-        font-family: 'Lora', serif;
         position: relative;
         bottom: -15vh;
         right: -5%;
@@ -573,18 +485,6 @@
         bottom: 37vh;
         left: 78%;
     }
-
-    /* .emailH{
-        position: sticky;
-        bottom: 0%;
-        left: 0%;
-    }
-    
-    .phoneH{
-        position: sticky;
-        bottom: 0%;
-        left: 3%;
-    } */
 
     /*Roompage*/
     .OtiumLogoRoom {
@@ -646,7 +546,6 @@
     }
 
     #rubrikRoom{
-        font-family: 'Lora', serif;
         position: relative;
         top: 1vh;
         left: 0%;
@@ -695,9 +594,6 @@
         position: fixed;
         top: 75vh;
         left: 95%;
-        /* position: absolute;
-        top: 525vh;
-        left: 1%; */
     }
     
 
@@ -759,7 +655,6 @@
     }
 
     .h2C{
-       font-family: 'Lora', serif;
         font-size:larger;
         position: relative;
         top: 15%;
@@ -803,31 +698,10 @@
         left: 1%;
     }
 
-    /* .emailC{
-        position: sticky;
-        bottom: 0%;
-        left: 0%;
-    }
-    
-    .phoneC{
-        position: sticky;
-        bottom: 0%;
-        left: 0%;
-    } 
-    
-    .adressC{
-        position: sticky;
-        bottom: 0%;
-        left: 55%;
-    }
-     */
     .topContact{
         position: fixed;
         top: 75vh;
         left: 95%;
-        /* position: absolute;
-        top: 313vh;
-        left: 1%; */
     }
     
     
