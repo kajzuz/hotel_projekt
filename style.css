@@ -1,5 +1,8 @@
 /*Phone*/
 
+*{
+    font-family: 'Lora', serif;
+}
 
 /*Homepage*/
 .OtiumLogo {
@@ -120,15 +123,19 @@
 } 
 
 .emailH{
-    position: sticky;
+    display: flex;
+    gap: 2%;
+    /* position: sticky;
     bottom: 0%;
-    left: 0%;
+    left: 0%; */
 }
 
 .phoneH{
-    position: sticky;
+    display: flex;
+    gap: 2%;
+    /* position: sticky;
     bottom: 0%;
-    left: 15%;
+    left: 15%; */
 }
 
 .topHome{
@@ -272,15 +279,19 @@
 }
 
 .emailR{
-    position: sticky;
+    display: flex;
+    gap: 2%;
+    /* position: sticky;
     bottom: 0%;
-    left: 0%;
+    left: 0%; */
 }
 
 .phoneR{
-    position: sticky;
+    display: flex;
+    gap: 2%;
+    /* position: sticky;
     bottom: 0%;
-    left: 15%;
+    left: 15%; */
 }
 
 .topRoom{
@@ -412,21 +423,27 @@
 }
 
  .emailC{
-    position: sticky;
+    display: flex;
+    gap: 2%;
+    /* position: sticky;
     bottom: 0%;
-    left: 0%;
+    left: 0%; */
 }
 
 .phoneC{
-    position: sticky;
+    display: flex;
+    gap: 2%;
+    /* position: sticky;
     bottom: 0%;
-    left: 15%;
+    left: 15%; */
 } 
 
 .adressC{
-    position: sticky;
+    display: flex;
+    gap: 2%;
+    /* position: sticky;
     bottom: 0%;
-    left: 30%;
+    left: 30%; */
 }
 
 /*make every to the top on phone fixed*/
@@ -442,7 +459,7 @@
 
 
 /*Desktop*/
-@media screen and (min-width: 480px){
+@media screen and (min-width: 800px){/*480px*/
 
     /*Homepage*/
     .OtiumLogo {
@@ -485,6 +502,8 @@
     }
 
     
+
+    
     .imgStartsida{
         width: 50%;
         position: absolute;
@@ -495,6 +514,8 @@
     .menuNav {
         display: none;
     }
+
+    
     
     .h2B{
         font-family: 'Lora', serif;
@@ -553,7 +574,7 @@
         left: 78%;
     }
 
-    .emailH{
+    /* .emailH{
         position: sticky;
         bottom: 0%;
         left: 0%;
@@ -563,7 +584,7 @@
         position: sticky;
         bottom: 0%;
         left: 3%;
-    }
+    } */
 
     /*Roompage*/
     .OtiumLogoRoom {
@@ -666,7 +687,7 @@
     
     .roompage footer{
         position: absolute;
-        top: 525vh;
+        top: 535vh;
         left: 1%;
     }
     
@@ -778,11 +799,11 @@
 
     .contactpage footer{
         position: absolute;
-        top: 300vh;
+        top: 310vh;
         left: 1%;
     }
 
-    .emailC{
+    /* .emailC{
         position: sticky;
         bottom: 0%;
         left: 0%;
@@ -799,7 +820,7 @@
         bottom: 0%;
         left: 55%;
     }
-    
+     */
     .topContact{
         position: fixed;
         top: 75vh;
