@@ -654,6 +654,10 @@
         width: 60%;
     }
 
+    .room1, .room2, .room3, .room4 {
+        width: 40%;
+    }
+
     .roomTextC{
         position: absolute;
         bottom: 4vh;
@@ -662,7 +666,7 @@
     
     .roompage footer{
         position: absolute;
-        top: 519vh;
+        top: 525vh;
         left: 1%;
     }
     
