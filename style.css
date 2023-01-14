@@ -433,10 +433,13 @@
 
     
     .imgStartsida{
+        position: static;
+        margin-left: 49%;
+        margin-top: -20%;
         width: 50%;
-        position: absolute;
+        /*position: absolute;
         top: 143vh;
-        left: 49%;
+        left: 49%;*/
     }
 
     .menuNav {
