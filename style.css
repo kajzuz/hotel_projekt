@@ -118,6 +118,11 @@
     right: 14%;
 }
 
+.copyH{
+    position: static;
+    text-align: center;
+}
+
 /*Roompage*/
 
 .roomsH1{
@@ -252,6 +257,11 @@
     right: 14%;
 }
 
+.copyR{
+    position: static;
+    text-align: center;
+}
+
 /*Contactpage*/
 
 .contactH1{
@@ -372,6 +382,11 @@
     right: 14%;
 }
 
+.copyC{
+    position: static;
+    text-align: center;
+}
+
 
 /*Desktop*/
 @media screen and (min-width: 800px){
@@ -431,9 +446,12 @@
     
     
     .h2B{
-        position: relative;
+        position: absolute;
+        top: 136vh;
+        left: 3%;
+       /* position: relative;
         bottom: -15vh;
-        right: -5%;
+        right: -5%;*/
     }
 
     .h3A{
@@ -585,9 +603,11 @@
     }
     
     .roompage footer{
-        position: absolute;
+        position: static;/**/
+        margin-top: 5%;
+        /*position: absolute;
         top: 535vh;
-        left: 1%;
+        left: 1%;*/
     }
     
     .topRoom{
@@ -702,6 +722,11 @@
         position: fixed;
         top: 75vh;
         left: 95%;
+    }
+
+    .contactpage footer {
+        position: static;
+        margin-top: 65%;
     }
     
     
