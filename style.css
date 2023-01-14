@@ -446,29 +446,39 @@
     
     
     .h2B{
-        position: absolute;
+        /*position: absolute;
         top: 136vh;
-        left: 3%;
+        left: 3%;*/
+        position: static;
+        margin-left: 15%;
+        margin-top: 7%;
     }
 
     .h3A{
-        position: absolute;
+        /*position: absolute;
         top: 140vh;
-        left: -10%;
+        left: -10%;*/
+        position: static;
+        margin-left: 0%;
+        margin-top: 3%;
     }
     
     .textDec{
         width: 45%;
         line-height: 180%;
-        position: absolute;
+        position: static;
+        margin-left: 0%;
+        margin-top: 1%;
+        /*position: absolute;
         top: 145vh;
-        right: 53%;
+        right: 53%;*/
     }
 
     .footerHome{
-        position: relative;
-        top: 62vh;
-        left: 1%;
+        position: static;
+        /*position: relative;
+        top: 19vh;
+        left: 1%;*/
     }
     
     .topHome{
